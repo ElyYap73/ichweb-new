@@ -1,0 +1,15 @@
+.footer__fondo{
+    background-image: url(../Imagenes/footerimage2.jpg);
+    background-size: cover;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(121, 163, 66);
+}
+.iconos{
+    display: inline-flex;
+}
+
+.footer__firma{
+    display: inline-flex;
+    margin-right: 10px;
+}

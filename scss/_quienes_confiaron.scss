@@ -1,0 +1,32 @@
+.clientes{
+    align-content: center;
+    justify-content: center;  
+}
+
+
+.clientes__descripcion{
+    display: inline-block;
+    background-color:rgba(121, 163, 66, 0.3);
+    border-radius: 15px;
+    height: 450px;
+    padding: 20px;
+    margin: 15px;
+    line-height: 40px;
+    text-align: justify;
+    vertical-align: top;
+    justify-self: center;
+}  
+
+.clientes__logo{
+    width: 100%;
+}
+
+.clientes__firma{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    line-height: 20px;
+    bottom: 5px;
+    padding: 10px;
+}    
+

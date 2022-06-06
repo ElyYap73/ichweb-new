@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+html{
+    font-size: 62,5%;
+}
+
+@font-face {
+    font-family: Montserrat "sans-serif";
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.body{
+    font-family: montserrat "san-serfi";
+    font-weight: normal;
+    font-size: 15px;
+    min-height: 100%;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.palabra__destacada {
+    color: rgb(121,163,66);
+    font-weight: bolder;
+}
+
+.container{
+    width: 100%;
+    height: 100%;   
+}
+
+header{
+    background-color: rgb(176, 191, 139); 
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(121, 163, 66);
+    
+}
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-brand-hover{
+    color:crimson
+}
+
+
+
+/*Index******************************************************/
+
+.portada{
+    align-self: top;
+    justify-self: stretch;
+}
+.portada__fraseInicial{
+    font-style: italic; 
+    font-size: 26px;
+    text-shadow: 4px 4px 4px rgb(142, 173, 101);
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+    color: black;
+    line-height: 51px;
+    display: inline-flex;
+    position: relative;
+    padding-right: 70px;    
+}
+.logo{
+    align-self: center;
+
+}
+.card-bodyParrafo{
+    margin: 10px;
+    background-color: rgba(121, 163, 66, 0.3);
+}
+.clientes{
+    align-content: center;
+    justify-content: center;  
+}
+
+.clientes__tituloIndex{
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    align-self: top;
+}
+
+.clientes__descripcion{
+    display: inline-block;
+    background-color:rgba(121, 163, 66, 0.3);
+    border-radius: 15px;
+    height: 320px;
+    padding: 20px;
+    margin: 15px;
+    line-height: 25px;
+    text-align: justify;
+    vertical-align: top;
+    justify-self: center;
+}    
+.clientes__logo{
+    width: 100%;
+}
+.clientes__firma--Maria{
+    text-align: right;
+    position: relative;
+    left: 0px;
+    line-height: 20px;
+    bottom: 5px;
+    padding: 10px;
+}    
+
+.clientes__firma--Vanesa{
+    text-align: right;
+    position: relative;
+    left: 0px;
+    line-height: 20px;
+    bottom: 30px;
+    padding: 10px;
+}
+.clientes__firma--Juan{
+    text-align: right;
+    position: relative;
+    line-height: 20px;
+    bottom: 25px;
+    padding: 10px;
+} 
+.footer__fondo{
+    background-image: url(../Imagenes/footerimage2.jpg);
+    background-size: cover;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(121, 163, 66);
+}
+
+.iconos{
+    display: inline-flex;
+}
+
+.footer__firma{
+    display: inline-flex;
+    align-self: center;
+}
+
+/*Pag qué proponemos**************************************************/
+
+.contenidoProponemos{
+    background-color: rgba(121, 163, 66, 0.3);
+}
+
+.proponemos__fraseInicial{
+    font-style: italic;     
+    font-size: 50px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;  
+    position: relative;
+    top: 30px;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+
+}
+.propuestas{
+    background-color: rgba(121, 163, 66, 0.3);
+}
+
+.portadas__tituloProponemos{
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+  
+.card{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom:20px;  
+}
+
+.card--medio{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 83px;
+    margin-bottom:20px;  
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+/* pag como lo hacemos*************************************/
+
+
+.fondo__Como{  
+    background-image: url(../Imagenes/metodologia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.metodologia{
+    background-color:  rgba(121, 163, 66, 0.3);
+}
+
+
+/*Pag Staff ***************************************************/
+
+
+.card-textStaff{
+    font-size: 30px;
+
+}
+

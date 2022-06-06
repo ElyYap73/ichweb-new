@@ -1,0 +1,22 @@
+
+.portada{
+    align-self: top;
+    justify-self: stretch;
+}
+.portada__fraseInicial{
+    font-style: italic; 
+    font-size: 26px;
+    text-shadow: 4px 4px 4px rgb(121, 163, 66);
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+    color: black;
+    line-height: 51px;
+    display: inline-flex;
+    position: relative;
+    padding-right: 70px;    
+}
+.logo{
+    align-self: center;
+
+}

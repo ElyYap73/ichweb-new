@@ -1,0 +1,21 @@
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+   
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+        &:hover{
+            color:black
+        }
+
+}
+
+header{
+    background-color: rgb(176, 191, 139); 
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(121, 163, 66);    
+}
+
